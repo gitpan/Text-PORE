@@ -10,7 +10,7 @@ use Text::PORE::Globals;
 
 @Text::PORE::ISA = qw(Exporter);
 
-$Text::PORE::VERSION = '1.01';
+$Text::PORE::VERSION = '1.02';
 
 
 ##########################################
@@ -225,7 +225,7 @@ Here are some examples.
 
 For details of how to use PORE::Object, please see its POD.
 
-=head1 CREATING TEMPLATES (PORE::Template)
+=head1 CREATING TEMPLATES -- PORE::Template
 
 PORE::Template represents the handle for PORE templates. To instantiate a PORE::Template object,
 either a filename of the template or the a template id is required. The instance is then passed to
@@ -516,7 +516,7 @@ Zhengrong Tang, ztang@cpan.org
 
 =head1 HISTORY and CREDITS
 
-PORE was developed in early 1997 by Zhengrong Tang, Keith Arner and Serene
+PORE was original developed in early 1997 by Zhengrong Tang, Keith Arner and Serene Taleb-Agha.
 
 =head1 COPYRIGHT
 

@@ -9,6 +9,8 @@ use Text::PORE::Parser;
 use Text::PORE::Globals;
 use Text::PORE::Volatile;
 
+$Text::PORE::Template::VERSION = "0.05";
+
 @Text::PORE::Template::ISA = qw(Exporter);
 
 sub new {

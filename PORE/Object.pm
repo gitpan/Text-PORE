@@ -4,6 +4,7 @@ package Text::PORE::Object;
 
 use Exporter;
 @Text::PORE::Object::ISA = qw(Exporter);
+$Text::PORE::Object::VERSION = "0.05";
 
 sub new
 {
